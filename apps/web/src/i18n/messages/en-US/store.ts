@@ -3,6 +3,8 @@ export default {
     editor: {
       contentCleared: `Content cleared`,
       contentReset: `Content reset`,
+      edgeFenceStripped: `Surrounding code fence removed`,
+      edgeFenceNotFound: `No code fence wrapping the whole document was found`,
     },
     post: {
       defaultTitle: `Content 1`,

@@ -3,6 +3,8 @@ export default {
     editor: {
       contentCleared: `內容已清空`,
       contentReset: `內容已重置`,
+      edgeFenceStripped: `已去除首尾程式碼圍欄`,
+      edgeFenceNotFound: `未偵測到包裹全文的程式碼圍欄`,
     },
     post: {
       defaultTitle: `內容1`,

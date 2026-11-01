@@ -34,6 +34,7 @@ declare module 'vue' {
     BackTop: typeof import('./src/components/ui/back-top/BackTop.vue')['default']
     Button: typeof import('./src/components/ui/button/Button.vue')['default']
     Checkbox: typeof import('./src/components/ui/checkbox/Checkbox.vue')['default']
+    CleanupDropdown: typeof import('./src/components/editor/editor-header/CleanupDropdown.vue')['default']
     CloudFeatureState: typeof import('./src/components/editor/editor-header/cloud/CloudFeatureState.vue')['default']
     CloudinaryConfigForm: typeof import('./src/components/editor/dialogs/upload-providers/CloudinaryConfigForm.vue')['default']
     CodemirrorEditor: typeof import('./src/components/editor/CodemirrorEditor.vue')['default']

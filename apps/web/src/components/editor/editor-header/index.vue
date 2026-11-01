@@ -9,6 +9,7 @@ import { useExportStore } from '@/stores/export'
 import { useRenderStore } from '@/stores/render'
 import { useThemeStore } from '@/stores/theme'
 import { useUIStore } from '@/stores/ui'
+import CleanupDropdown from './CleanupDropdown.vue'
 import EditDropdown from './EditDropdown.vue'
 import FileDropdown from './FileDropdown.vue'
 import FormatDropdown from './FormatDropdown.vue'
@@ -235,6 +236,7 @@ function copyToWeChat() {
         <InsertDropdown />
         <StyleDropdown />
         <HelpDropdown />
+        <CleanupDropdown />
       </Menubar>
     </div>
 
@@ -253,6 +255,7 @@ function copyToWeChat() {
             <InsertDropdown :as-sub="true" />
             <StyleDropdown :as-sub="true" />
             <HelpDropdown :as-sub="true" />
+            <CleanupDropdown :as-sub="true" />
           </MenubarContent>
         </MenubarMenu>
       </Menubar>

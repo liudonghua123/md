@@ -96,6 +96,8 @@ export default {
     insert: `Insert`,
     style: `Style`,
     help: `Help`,
+    cleanup: `Clean`,
+    stripEdgeFence: `Strip surrounding code fence`,
     localFolder: `Folder`,
     import: `Import`,
     importMarkdown: `Markdown`,

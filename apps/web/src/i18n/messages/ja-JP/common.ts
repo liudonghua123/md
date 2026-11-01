@@ -96,6 +96,8 @@ export default {
     insert: `挿入`,
     style: `スタイル`,
     help: `ヘルプ`,
+    cleanup: `クリーンアップ`,
+    stripEdgeFence: `先頭末尾のコードフェンスを削除`,
     localFolder: `フォルダー`,
     import: `インポート`,
     importMarkdown: `Markdown`,

@@ -96,6 +96,8 @@ export default {
     insert: `插入`,
     style: `样式`,
     help: `帮助`,
+    cleanup: `清理`,
+    stripEdgeFence: `去除首尾代码块围栏`,
     localFolder: `本地文件夹`,
     import: `导入`,
     importMarkdown: `导入 Markdown`,

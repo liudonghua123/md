@@ -3,6 +3,8 @@ export default {
     editor: {
       contentCleared: `コンテンツをクリアしました`,
       contentReset: `コンテンツをリセットしました`,
+      edgeFenceStripped: `先頭末尾のコードフェンスを削除しました`,
+      edgeFenceNotFound: `ドキュメント全体を囲むコードフェンスが見つかりません`,
     },
     post: {
       defaultTitle: `コンテンツ 1`,
